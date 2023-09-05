@@ -39,7 +39,9 @@ h1 {
     font-weight: 800;
     font-size: 116px;
     letter-spacing: 4.06px;
-    text-transform: uppercase;  
+    text-transform: uppercase; 
+    /* transform: translateY(50px);  */
+    transform: translateX(-60vw);
 }
 
 .title::after {
@@ -47,6 +49,14 @@ h1 {
 
 }
 
+/* правила для тултипа */
 .title:hover::before {
-    /* правила для тултипа */
+    content: "На самом деле нет. Важнее — научиться ошибаться.";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+    min-width: 742px;;
 } 
