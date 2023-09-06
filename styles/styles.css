@@ -47,9 +47,9 @@ h1 {
 
 .title {
     z-index: 1; /* у родителя — container прописан display: flex */
-    max-width: 720px; /* перенос */
+    max-width: 740px; /* перенос */
     margin: 60px auto;
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 116px;
     letter-spacing: 3.5px;
     text-align: center;
@@ -59,7 +59,7 @@ h1 {
 
 .title::after {
     content: "*";
-    position: relative;
+    position: absolute;
 }
 
 .title:hover {
